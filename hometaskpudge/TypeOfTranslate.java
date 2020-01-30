@@ -6,9 +6,9 @@ import java.util.ResourceBundle;
 
 public class TypeOfTranslate implements Serializable {
 
-    private transient final String mes = "MessageBundle";
-    private transient final String defaultLanuage = "en";
-    private transient final String defaultCountry = "EN";
+    private final String mes = "MessageBundle";
+    private final String defaultLanuage = "en";
+    private final String defaultCountry = "EN";
 
     private transient ResourceBundle bundle;
     private transient Locale locale;
