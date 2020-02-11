@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00218d20-1641-4b0a-bc34-be5b7857d642" name="Default Changelist" comment="" />
+    <list default="true" id="8bacc5b8-4df5-4ba5-a312-e93cdb11b3c1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,17 +18,12 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1XMQYKXtiEwOfMu27k5gGf6y9Ov" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1XUcpdlOpsQgP0PGo0gJojdyMJn" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,13 +37,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MineCraft">
-    <configuration name="MineCraft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="minecraft.MineCraft" />
-      <module name="hometask7" />
+  <component name="RunManager" selected="Application.TransportMain">
+    <configuration name="RunMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deathrun.RunMain" />
+      <module name="hometask8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="minecraft.*" />
+          <option name="PATTERN" value="deathrun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +51,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shop.ShopMain" />
-      <module name="hometask7" />
+    <configuration name="TransportMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="transport.TransportMain" />
+      <module name="hometask8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shop.*" />
+          <option name="PATTERN" value="transport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +66,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MineCraft" />
-        <item itemvalue="Application.ShopMain" />
+        <item itemvalue="Application.TransportMain" />
+        <item itemvalue="Application.RunMain" />
       </list>
     </recent_temporary>
   </component>
@@ -81,25 +76,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="00218d20-1641-4b0a-bc34-be5b7857d642" name="Default Changelist" comment="" />
-      <created>1580853530380</created>
+      <changelist id="8bacc5b8-4df5-4ba5-a312-e93cdb11b3c1" name="Default Changelist" comment="" />
+      <created>1581104299155</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580853530380</updated>
+      <updated>1581104299155</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
