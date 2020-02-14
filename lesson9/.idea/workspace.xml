@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bacc5b8-4df5-4ba5-a312-e93cdb11b3c1" name="Default Changelist" comment="" />
+    <list default="true" id="8a2e50af-51d5-4c31-976a-66d4365577dd" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -21,10 +22,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1XUcpdlOpsQgP0PGo0gJojdyMJn" />
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
-  </component>
+  <component name="ProjectId" id="1XfeFKWTppRtkVTX7jHZnbNkjZq" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -37,13 +35,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TransportMain">
-    <configuration name="RunMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deathrun.RunMain" />
-      <module name="hometask8" />
+  <component name="RunManager" selected="Application.CallPrivateMethod">
+    <configuration name="CallPrivateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paket.CallPrivateMethod" />
+      <module name="lesson9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="deathrun.*" />
+          <option name="PATTERN" value="paket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,12 +49,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransportMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="transport.TransportMain" />
-      <module name="hometask8" />
+    <configuration name="CallableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paket.CallableMain" />
+      <module name="lesson9" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="transport.*" />
+          <option name="PATTERN" value="paket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paket.ReflectMain" />
+      <module name="lesson9" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,8 +77,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TransportMain" />
-        <item itemvalue="Application.RunMain" />
+        <item itemvalue="Application.CallPrivateMethod" />
+        <item itemvalue="Application.ReflectMain" />
+        <item itemvalue="Application.CallableMain" />
       </list>
     </recent_temporary>
   </component>
@@ -76,11 +88,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8bacc5b8-4df5-4ba5-a312-e93cdb11b3c1" name="Default Changelist" comment="" />
-      <created>1581104299155</created>
+      <changelist id="8a2e50af-51d5-4c31-976a-66d4365577dd" name="Default Changelist" comment="" />
+      <created>1581441472221</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581104299155</updated>
+      <updated>1581441472221</updated>
     </task>
     <servers />
   </component>
