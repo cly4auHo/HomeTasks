@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e25f6fcf-17bd-415f-8f57-d761e55ebf95" name="Default Changelist" comment="" />
+    <list default="true" id="5a39ba81-7a18-47bc-88f9-693191042403" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +14,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -22,7 +21,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1XgU4oA0mJNwsE6xrdHDQGrVz1n" />
+  <component name="ProjectId" id="1YEOzt99s0NfMeQccGBBo2jCkOR" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -36,12 +35,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FarshMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palet.FarshMain" />
-      <module name="hometask9" />
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paket.AppMain" />
+      <module name="hometask10" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="palet.*" />
+          <option name="PATTERN" value="paket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -51,7 +50,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FarshMain" />
+        <item itemvalue="Application.AppMain" />
       </list>
     </recent_temporary>
   </component>
@@ -60,11 +59,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e25f6fcf-17bd-415f-8f57-d761e55ebf95" name="Default Changelist" comment="" />
-      <created>1581467043092</created>
+      <changelist id="5a39ba81-7a18-47bc-88f9-693191042403" name="Default Changelist" comment="" />
+      <created>1582504554395</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581467043092</updated>
+      <updated>1582504554395</updated>
     </task>
     <servers />
   </component>
