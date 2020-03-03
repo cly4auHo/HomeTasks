@@ -22,7 +22,7 @@ public class Player implements Runnable {
             }
         }
 
-        if (Thread.activeCount() > 2)
+        if (Thread.activeCount() > 3)
             System.out.println(name + " is lost");
         else
             System.out.println(name + " winner");
