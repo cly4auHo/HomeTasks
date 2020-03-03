@@ -6,26 +6,30 @@ public class Player implements Runnable {
     private int gameTime = 1000;
 
     @Override
-    public void run() {
-        while (chairs.getGames() > 0) {
-            System.out.println(name + " want to play");
+     public void run() {
+        synchronized (this.chairs) {
+            while (chairs.getGames() > 0) {
+                System.out.println(name + " want to play");
 
-            try {
-                Thread.sleep(gameTime);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
+                try {
+                    Thread.sleep(gameTime);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+                if (chairs.check() >= 0)
+                    chairs.waitNextGame();
+                else {
+                    chairs.nextGame();
+                    break;
+                }
             }
 
-            if (chairs.check() < 0) {
-                chairs.nextGame();
-                break;
-            }
+            if (Thread.activeCount() > 3)
+                System.out.println(name + " is lost");
+            else
+                System.out.println(name + " winner");
         }
-
-        if (Thread.activeCount() > 3)
-            System.out.println(name + " is lost");
-        else
-            System.out.println(name + " winner");
     }
 
 
