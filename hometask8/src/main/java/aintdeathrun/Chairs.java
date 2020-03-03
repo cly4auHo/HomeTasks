@@ -14,7 +14,16 @@ public class Chairs {
         return games;
     }
 
+    public void waitNextGame() {
+        try {
+            wait();
+        } catch (InterruptedException e) {
+            Thread.interrupted();
+        }
+    }
+
     public void nextGame() {
+        notifyAll();
         aInt.set(--games);
     }
 
