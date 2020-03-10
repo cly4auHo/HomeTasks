@@ -23,8 +23,9 @@ public class Chairs {
     }
 
     public void nextGame() {
-        notifyAll();
+        //and sleep until music play
         aInt.set(--games);
+        notifyAll();       
     }
 
     public Chairs() {
