@@ -21,7 +21,7 @@ public class AddLetter {
         stringi.add(a4);
         stringi.add(a5);
 
-        stringi=  stringi.stream().map(x -> x.concat("a")).collect(Collectors.toList());
+        stringi = stringi.stream().map(x -> x.concat("a")).collect(Collectors.toList());
                       
         stringi.forEach((s) -> {
             System.out.println(s);
